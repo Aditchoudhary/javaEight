@@ -10,7 +10,6 @@ public class Address {
 
   }
 
-
   public String getStreetName() {
     return streetName;
   }
@@ -18,4 +17,9 @@ public class Address {
   public int getHouseNo() {
     return houseNo;
   }
+
+@Override
+public String toString() {
+	return "Address [streetName=" + streetName + ", houseNo=" + houseNo + "]";
+}
 }
